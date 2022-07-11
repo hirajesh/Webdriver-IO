@@ -33,8 +33,8 @@ class signin {
   }
   async landopenurl() {
     await browser.maximizeWindow();
-   // await browser.url("https://lms.com:L@digital@uat1.homecentre.com/ae/en/");
-    await browser.url("https://www.homecentre.com/ae/en/");
+    await browser.url("https://lms.com:L@digital@uat1.homecentre.com/ae/en/");
+   // await browser.url("https://www.homecentre.com/ae/en/");
     browser.saveScreenshot("./homepage.png");
   }
   async land_close_mobileverification() {
